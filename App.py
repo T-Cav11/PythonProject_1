@@ -47,7 +47,6 @@ while True:
             print("Command is not valid. Please try again.")
             continue
 
-
     elif user_prompt.startswith("complete"):
         try:
             number = int(user_prompt[9:])
