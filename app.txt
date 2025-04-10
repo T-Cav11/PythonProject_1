@@ -4,3 +4,5 @@ run
 run
 Gooning
 Rugby
+Hide
+Cook
