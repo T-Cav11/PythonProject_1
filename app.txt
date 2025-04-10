@@ -1,6 +1,7 @@
-Shower
+S
 Show
 add
 New tasks is added
 Run
 Cooking Dinner
+Phone call
