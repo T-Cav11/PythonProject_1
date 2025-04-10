@@ -1,6 +1,6 @@
 Shower
-ShowRugby
-HiderCook
+Show
 add
-New tasks is added!
+New tasks is added
 Run
+Cooking Dinner

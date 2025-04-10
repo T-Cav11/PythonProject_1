@@ -16,7 +16,6 @@ while True:
     event, values = window.read()
     print(1,event)
     print(2,values)
-    print(3,values["existing_tasks"])
     match event:
         case "Add":
             tasks = Functions.get_tasks()
@@ -30,11 +29,11 @@ while True:
 
             tasks = Functions.get_tasks()
             index = tasks.index(task_to_edit)
-            tasks[index] = new_task
+            tasks[index] = new_task + "\n"
             Functions.write_tasks(tasks)
             window["existing_tasks"].update(tasks)
         case "existing_tasks":
-          window["task"].update(values["existing_tasks"][0])
+          window["task"].update(values["existing_tasks"][0].strip())
 
         case sg.WIN_CLOSED:
             break
